@@ -32,7 +32,7 @@ Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by
 	+ [LSTM Sentiment Analysis](https://github.com/adeshpande3/LSTM-Sentiment-Analysis)
 	+ [Sentiment Analysis with Lstms Using Tensorflow]( https://www.oreilly.com/learning/perform-sentiment-analysis-with-lstms-using-tensorflow)
 	+ [Measuring Influence on Twitter](http://www.l2f.inesc-id.pt/~fmmb/wiki/uploads/Work/misnis.ref07.pdf)
-
+	+ [Trump Approval Rating](https://projects.fivethirtyeight.com/trump-approval-ratings)
 ```
 proj/
 ├── lib/
