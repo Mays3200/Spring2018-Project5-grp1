@@ -25,17 +25,13 @@ Term: Spring 2018
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 
-**Reference**: 
++ **Reference**: 
 
-[W3-HTML](https://www.w3schools.com/html/default.asp)
-
-[Vader Sentiment](https://github.com/cjhutto/vaderSentiment)
-
-[LSTM Sentiment Analysis](https://github.com/adeshpande3/LSTM-Sentiment-Analysis)
-
-[Sentiment Analysis with Lstms Using Tensorflow]( https://www.oreilly.com/learning/perform-sentiment-analysis-with-lstms-using-tensorflow)
-
-[Measuring Influence on Twitter](http://www.l2f.inesc-id.pt/~fmmb/wiki/uploads/Work/misnis.ref07.pdf)
+	+ [W3-HTML](https://www.w3schools.com/html/default.asp)
+	+ [Vader Sentiment](https://github.com/cjhutto/vaderSentiment)
+	+ [LSTM Sentiment Analysis](https://github.com/adeshpande3/LSTM-Sentiment-Analysis)
+	+ [Sentiment Analysis with Lstms Using Tensorflow]( https://www.oreilly.com/learning/perform-sentiment-analysis-with-lstms-using-tensorflow)
+	+ [Measuring Influence on Twitter](http://www.l2f.inesc-id.pt/~fmmb/wiki/uploads/Work/misnis.ref07.pdf)
 
 ```
 proj/
