@@ -23,9 +23,9 @@ Term: Spring 2018
 + **Contribution statement**: 
     + Cao, Xinlei:Text data cleaning and preprocessing; Construct the VaderSentiment model for text sentiment analysis; Transform the text data into word vectors based on the Word2Vec technique; Construct the LSTM(Long Short Term Memory) sentiment analysis model based on tensorflow.
     + Chen, Mengqi: Descriptive analysis and background searching.
-    + Li, Keran: 
+    + Li, Keran: Coded web scraping twitter api, scraped updated data, coded Flaks web app, inserted machine learning model into webpage, wrote input.html, uploaded and integrated the Flask APP to pythonanywhwere, visulized top 20 sentiment score, wrote the main.html and integrated github file.
     + Li, Xinrou: Designed the website page; Wrote the website's HTML; Visualized the Dow Jones Index with positive attitude and the timeline; Wrote README.md.
-    + Tao, Wesley:
+    + Tao, Wesley: Helped to scrap data, cleaned all the twitter data, visulized opinion leader using d3 visulization, coded lda model and found insights based on topic models.
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 
