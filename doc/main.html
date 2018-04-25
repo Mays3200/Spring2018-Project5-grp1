@@ -11775,7 +11775,8 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="'China-and-US-Trader-War'-Twitter-Analysis">'China and US Trader War' Twitter Analysis<a class="anchor-link" href="#'China-and-US-Trader-War'-Twitter-Analysis">&#182;</a></h1><h2 id="Website-Link:-http://keran.pythonanywhere.com">Website Link: <a href="http://keran.pythonanywhere.com">http://keran.pythonanywhere.com</a><a class="anchor-link" href="#Website-Link:-http://keran.pythonanywhere.com">&#182;</a></h2><h2 id="Online-App-Link:-http://keran.pythonanywhere.com/input">Online App Link: <a href="http://keran.pythonanywhere.com/input">http://keran.pythonanywhere.com/input</a><a class="anchor-link" href="#Online-App-Link:-http://keran.pythonanywhere.com/input">&#182;</a></h2>
+<h1 id="'China-and-US-Trader-War'-Twitter-Analysis">'China and US Trader War' Twitter Analysis<a class="anchor-link" href="#'China-and-US-Trader-War'-Twitter-Analysis">&#182;</a></h1><h2 id="Website-Link:-http://keran.pythonanywhere.com">Website Link: <a href="http://keran.pythonanywhere.com">http://keran.pythonanywhere.com</a><a class="anchor-link" href="#Website-Link:-http://keran.pythonanywhere.com">&#182;</a></h2><h2 id="Model-Link:-http://keran.pythonanywhere.com/input">Model Link: <a href="http://keran.pythonanywhere.com/input">http://keran.pythonanywhere.com/input</a><a class="anchor-link" href="#Model-Link:-http://keran.pythonanywhere.com/input">&#182;</a></h2><p><img src="../figs/webpage1.jpg"></p>
+
 </div>
 </div>
 </div>
@@ -11801,15 +11802,16 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="2.-Data-Scraping,-Preprocessing-and-Models:">2. Data Scraping, Preprocessing and Models:<a class="anchor-link" href="#2.-Data-Scraping,-Preprocessing-and-Models:">&#182;</a></h2><h4 id="1.-Twitter-Data-Scraping:">1. Twitter Data Scraping:<a class="anchor-link" href="#1.-Twitter-Data-Scraping:">&#182;</a></h4><p>We used twitter API to extract tweitter streaming sample including words 'tariff', 'trade war' and '#TradeWar' and save it as a .txt file. Please apply a twitter API id through the twitter website.</p>
+<h2 id="2.-Data-Scraping,-Preprocessing-and-Models:">2. Data Scraping, Preprocessing and Models:<a class="anchor-link" href="#2.-Data-Scraping,-Preprocessing-and-Models:">&#182;</a></h2><h4 id="1.-Twitter-Data-Scraping:">1. Twitter Data Scraping:<a class="anchor-link" href="#1.-Twitter-Data-Scraping:">&#182;</a></h4><p>We used twitter API to extract twitter streaming sample including words 'tariff', 'trade war' and '#TradeWar' and save it as a .txt file. Please apply a twitter API id through the twitter website.</p>
 <p>Please find the code in the file: lib/get_twitter.ipynb</p>
-<h4 id="2.-Data-Preprocessing:">2. Data Preprocessing:<a class="anchor-link" href="#2.-Data-Preprocessing:">&#182;</a></h4><p>We extracted write twitter data into json and transform it to a dataframe for further machine learning model.</p>
+<h4 id="2.-Data-Preprocessing:">2. Data Preprocessing:<a class="anchor-link" href="#2.-Data-Preprocessing:">&#182;</a></h4><p>We extracted twitter data into json and transform it to a dataframe for further machine learning model.</p>
 <p>Please find the code in the file: lib/cleaning.ipynb</p>
 <p>The outcome data in the data/clean_data.csv</p>
-<h4 id="3.-Sentiment-Anlysis-Model-(deeping-learning-model):">3. Sentiment Anlysis Model (deeping learning model):<a class="anchor-link" href="#3.-Sentiment-Anlysis-Model-(deeping-learning-model):">&#182;</a></h4><p>We used vader sentiment analysis to do analysis on our data set, which is a pre-trained deep learning model. And we combine this with the 'opinion leaders', the top 20 retweeted users among this topic, to extract their sentiment score.</p>
+<h4 id="3.-Sentiment-Anlysis-Model-(Machine-Learning-Model):">3. Sentiment Anlysis Model (Machine Learning Model):<a class="anchor-link" href="#3.-Sentiment-Anlysis-Model-(Machine-Learning-Model):">&#182;</a></h4><p>We used vader sentiment analysis to do analysis on our data set, which is a pre-trained deep learning model. And we combine this with the 'opinion leaders', the top 20 retweeted users among this topic, to extract their sentiment score.</p>
 <p>Please find the code in the file: lib/get_twitter.ipynb</p>
 <p>The outcome data in the data/data_with_vadersentiment.csv</p>
-<h4 id="4.-LDA-Topic-Model-(machine-learningmodel):">4. LDA Topic Model (machine learningmodel):<a class="anchor-link" href="#4.-LDA-Topic-Model-(machine-learningmodel):">&#182;</a></h4><p>We applied LDA Model to extract twitter topics under negative attitude data and positive attitude data.</p>
+<p><img src="../figs/webpage2.jpg"></p>
+<h4 id="4.-LDA-Topic-Model-(Machine-Learningmodel):">4. LDA Topic Model (Machine Learningmodel):<a class="anchor-link" href="#4.-LDA-Topic-Model-(Machine-Learningmodel):">&#182;</a></h4><p>We applied LDA Model to extract twitter topics under negative attitude data and positive attitude data.</p>
 <p>Please find the code in the file: lib/lda.ipynb</p>
 
 </div>
@@ -11827,8 +11829,9 @@ div#notebook {
 <p>index.html: our website homepage</p>
 <p>input.html: our sentiment analysis model web page</p>
 <p>Please find the detail code in the file: lib/Flask/templates</p>
-<h4 id="Flask-Backend-Web-Development:">Flask Backend Web Development:<a class="anchor-link" href="#Flask-Backend-Web-Development:">&#182;</a></h4><p>We used flask to build our website framwork.</p>
+<h4 id="Flask-Backend-Web-Development:">Flask Backend Web Development:<a class="anchor-link" href="#Flask-Backend-Web-Development:">&#182;</a></h4><p>We used flask to build our website framework and insert sentiment analysis.</p>
 <p>Please find the detail code in the file: lib/Flask/routes.py</p>
+<p><img src="../figs/model.jpg"></p>
 
 </div>
 </div>
@@ -11843,7 +11846,8 @@ The large “Trade War” and “Trump” represent people’s concerns about th
 Another concerns is regarding the agriculture, To fight back, China impose 25% duties on imports of the commodities. As an agricultural exporter, U.S. suffered from the increasing tariff of exporting “soybean” to China. It threatened the food consumption which is inelastic demand in China. However, “Mexico” may benefit from the trade war since it can export more soybeans and pork to satisfy China’s demand of agricultural products. That’s not good news for “farmers” since they may face higher price but lower sales.
 For Positive topics:
 On the other side, as a main “steel” importer, U.S. increased the tariff of steel to 25% and limited the investment of technology corporations from China. The possible “manufacturing” “job” became the hot discussion topic. China’s technology and steel industry faced a lot of problem for entering the U.S. market.</p>
-<h4 id="3.-Busines-Insights:-Sentiment-Analysis-among-all-twittes-has-strong-correlation-with-Dow-Jones-Index:">3. Busines Insights: Sentiment Analysis among all twittes has strong correlation with Dow Jones Index:<a class="anchor-link" href="#3.-Busines-Insights:-Sentiment-Analysis-among-all-twittes-has-strong-correlation-with-Dow-Jones-Index:">&#182;</a></h4><p>Please find detail throuhg our website.</p>
+<h4 id="3.-Busines-Insights:-Sentiment-Analysis-among-all-twittes-has-strong-correlation-with-Dow-Jones-Index:">3. Busines Insights: Sentiment Analysis among all twittes has strong correlation with Dow Jones Index:<a class="anchor-link" href="#3.-Busines-Insights:-Sentiment-Analysis-among-all-twittes-has-strong-correlation-with-Dow-Jones-Index:">&#182;</a></h4><p><img src="../figs/webpage3.jpg"></p>
+<p>Please find detail throuhg our website.</p>
 
 </div>
 </div>
