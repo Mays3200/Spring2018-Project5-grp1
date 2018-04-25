@@ -17,7 +17,7 @@ Term: Spring 2018
 + Project summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 	
 + **Contribution statement**: 
-    + Cao, Xinlei:Text data cleaning and preprocessing; Construct the VaderSentiment model for text sentiment analysis;     Transform the text data into word vectors based on the Word2Vec technique; Construct the LSTM(Long Short Term Memory) sentiment analysis model based on tensorflow.
+    + Cao, Xinlei:Text data cleaning and preprocessing; Construct the VaderSentiment model for text sentiment analysis; Transform the text data into word vectors based on the Word2Vec technique; Construct the LSTM(Long Short Term Memory) sentiment analysis model based on tensorflow.
     + Chen, Mengqi: Descriptive analysis and background searching
     + Li, Keran: 
     + Li, Xinrou:
