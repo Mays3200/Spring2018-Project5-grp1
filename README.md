@@ -18,7 +18,7 @@ Term: Spring 2018
 	
 + **Contribution statement**: 
     + Cao, Xinlei:Text data cleaning and preprocessing; Construct the VaderSentiment model for text sentiment analysis; Transform the text data into word vectors based on the Word2Vec technique; Construct the LSTM(Long Short Term Memory) sentiment analysis model based on tensorflow.
-    + Chen, Mengqi: Descriptive analysis and background searching.
+    + Chen, Mengqi: Descriptive analysis and background searching.
     + Li, Keran: 
     + Li, Xinrou:
     + Tao, Wesley:
